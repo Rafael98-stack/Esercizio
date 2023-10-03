@@ -78,7 +78,7 @@ const ordinato = [mario, sara, marco]
 console.log(amici);
 console.log(ordinato);
 if (mario > sara && mario > marco){
-  console.log[mario, sara, marco];
+  console.log(ordinato);
 };
 
 /* ESERCIZIO 8
