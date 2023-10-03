@@ -127,12 +127,13 @@ const me = {
   name: 'John',
   lastName: 'Doe',
   skills: ['javascript', 'html', 'css'],
-  Location: {city: "Toronto"}
+  
 }
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const Location = {city: "Toronto"};
-console.log(me.Location.city);
+me.city = "Toronto";
+
+
 console.log(me);
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
